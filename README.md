@@ -62,7 +62,7 @@ Some other attributes recorded by the LiDAR sensor are listed in the following t
 
 All of this data from the LiDAR sensor is stored in a LAS file. This file contains details of a 3D point cloud with millions of points. A *LAZ* file is condensed version of this. There are several strategies for minimizing the file size to allow for faster processing. The following is a list of details that may be excluded to reduce file size. 
 
-- [ ] keep first return pulse points only
+- [x] keep first return pulse points only
 - [ ] keep last return pulse points only
 - [ ] remove points with an intensity measured beyond a certain threshold
 - [ ] remove points above or below a certain Z threshold
