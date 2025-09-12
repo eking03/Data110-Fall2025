@@ -1,6 +1,7 @@
 ---
 title: "LiDAR"
 author: "Emma King"
+date: 08/10/25
 ---
 
 
@@ -103,3 +104,4 @@ This [excerpt](https://www.bbc.com/news/articles/crmznzkly3go) by Georgina Ranna
 Unlike traditional imaging methods, LiDAR works effectively in low-light conditions and can penetrate through vegetation, making it especially valuable for mapping terrain and detecting hidden structures. 
 
 
+![lidar](https://www.energy.virginia.gov/geology/images/LiDAR_illustration.png)
