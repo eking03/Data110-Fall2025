@@ -12,7 +12,7 @@ date: 08/10/25
 
 ## Introduction
 
-LiDAR, which stands for *Light Detection and Ranging*, is a remote sensing technology that uses laser light to measure distances with high precision. By emitting rapid pulses of laser light and calculating the time it takes for each pulse to bounce back after hitting an object or surface, LiDAR systems can create detailed, 3D maps of environments. 
+LiDAR, which stands for **Light Detection and Ranging**, is a remote sensing technology that uses laser light to measure distances with high precision. By emitting rapid pulses of laser light and calculating the time it takes for each pulse to bounce back after hitting an object or surface, LiDAR systems can create detailed, 3D maps of environments. 
 
 
 ## Applications
@@ -60,14 +60,14 @@ Some other attributes recorded by the LiDAR sensor are listed in the following t
 | Classification     | Numeric value categorizing the surface the pulse was reflected off of       |
 | Scan Angle         | Angle from the aircraft the pulse was emitted                               |
 
-All of this data from the LiDAR sensor is stored in a LAS file. This file contains details of a 3D point cloud with millions of points. A **LAZ** file is condensed version of this. There are several strategies for minimizing the file size to allow for faster processing. The following is a list of details that may be excluded to reduce file size. 
+All of this data from the LiDAR sensor is stored in a LAS file. This file contains details of a 3D point cloud with millions of points. A *LAZ* file is condensed version of this. There are several strategies for minimizing the file size to allow for faster processing. The following is a list of details that may be excluded to reduce file size. 
 
-[ ] keep first return pulse points only
-[ ] keep last return pulse points only
-[ ] remove points with an intensity measured beyond a certain threshold
-[ ] remove points above or below a certain Z threshold
-[ ] keep only points classified as ground
-[ ] exclude points classified as noise
+- [ ] keep first return pulse points only
+- [ ] keep last return pulse points only
+- [ ] remove points with an intensity measured beyond a certain threshold
+- [ ] remove points above or below a certain Z threshold
+- [ ] keep only points classified as ground
+- [ ] exclude points classified as noise
 
 
 ## Using LAS Files
@@ -102,7 +102,7 @@ plot(las.buff)
 > Archaeologists found pyramids, sports fields, causeways connecting districts and amphitheatres in the southeastern state of Campeche.
 > They uncovered the hidden complex - which they have called Valeriana - using Lidar, a type of laser survey that maps structures buried under vegetation.
 
-This [excerpt](https://www.bbc.com/news/articles/crmznzkly3go) by Georgina Rannard in an article written for **BBC** highlight one way that LiDAR has helped us understand the shape of the world around us. 
+This excerpt by Georgina Rannard in an [article](https://www.bbc.com/news/articles/crmznzkly3go) written for *BBC* highlight one way that LiDAR has helped us understand the shape of the world around us. 
 Unlike traditional imaging methods, LiDAR works effectively in low-light conditions and can penetrate through vegetation, making it especially valuable for mapping terrain and detecting hidden structures. 
 
 
