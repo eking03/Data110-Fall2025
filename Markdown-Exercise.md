@@ -72,7 +72,7 @@ All of this data from the LiDAR sensor is stored in a LAS file. This file contai
 
 ## Using LAS Files
 
-LAS files can be accessed using several different softwares. The following code chunk is a fragment from a project I worked on, where a pedestrian bridge was scheduled to be built[^1]. This utilizes a package called `lidR` which helps visualize 3D point clouds in R. The data. can be found at the following site
+LAS files can be accessed using several different softwares. The following code chunk is a fragment from a project I worked on, where a pedestrian bridge was scheduled to be built[^1]. This utilizes a package called `lidR` which helps visualize 3D point clouds in R. The data can be found at the sites listed as comments at the top of the following code chunk.
 
 ```{r}
 
